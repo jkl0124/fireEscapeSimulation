@@ -808,11 +808,11 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 2
   windowsGamepadBackendHint: 0
-  cloudProjectId: 
+  cloudProjectId: 991ef9a8-d2a6-4674-b7fa-4543e7dcd71f
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: 
-  organizationId: 
+  projectName: fireEscapeSimulation
+  organizationId: suhyjkl0124
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   playerDataPath: 
