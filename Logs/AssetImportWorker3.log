@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2022.3/staging' branch; Version is '2022.3.8f1 (b5eafc012955) revision 11922172'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'ko' Physical Memory: 16316 MB
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'ko' Physical Memory: 16150 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2022.3.8f1\Editor\Unity.exe
 -name
 AssetImportWorker3
 -projectPath
-C:/Users/jkl01/Desktop/fireEscapeSimulation01
+C:/Users/3kati/Desktop/FireSimulation/temp/fireEscapeSimulation
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-64514
-Successfully changed project path to: C:/Users/jkl01/Desktop/fireEscapeSimulation01
-C:/Users/jkl01/Desktop/fireEscapeSimulation01
+64402
+Successfully changed project path to: C:/Users/3kati/Desktop/FireSimulation/temp/fireEscapeSimulation
+C:/Users/3kati/Desktop/FireSimulation/temp/fireEscapeSimulation
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,66 +49,68 @@ C:/Users/jkl01/Desktop/fireEscapeSimulation01
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [16940] Host "[IP] 192.168.35.153 [Port] 0 [Flags] 2 [Guid] 2483998537 [EditorId] 2483998537 [Version] 1048832 [Id] WindowsEditor(7,kimhyunsoo) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [17576] Host "[IP] 172.29.17.90 [Port] 0 [Flags] 2 [Guid] 3615313401 [EditorId] 3615313401 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-21T6BIR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [16940] Host "[IP] 192.168.35.153 [Port] 0 [Flags] 2 [Guid] 2483998537 [EditorId] 2483998537 [Version] 1048832 [Id] WindowsEditor(7,kimhyunsoo) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [17576] Host "[IP] 172.29.17.90 [Port] 0 [Flags] 2 [Guid] 3615313401 [EditorId] 3615313401 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-21T6BIR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 73.70 ms, found 9 plugins.
-Preloading 2 native plugins for Editor in 6.57 ms.
+Refreshing native plugins compatible for Editor in 31.48 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 2.68 ms.
 Initialize engine version: 2022.3.8f1 (b5eafc012955)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/jkl01/Desktop/fireEscapeSimulation01/Assets
+[Subsystems] Discovering subsystems at path C:/Users/3kati/Desktop/FireSimulation/temp/fireEscapeSimulation/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1660 SUPER (ID=0x21c4)
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f91)
     Vendor:   NVIDIA
-    VRAM:     5992 MB
-    Driver:   27.21.14.5671
+    VRAM:     3951 MB
+    Driver:   31.0.15.3209
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56216
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56652
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.011111 seconds.
-- Loaded All Assemblies, in  0.575 seconds
+Registered in 0.017363 seconds.
+- Loaded All Assemblies, in  0.717 seconds
 Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.361 seconds
-Domain Reload Profiling: 935ms
-	BeginReloadAssembly (195ms)
+- Finished resetting the current domain, in  0.421 seconds
+Domain Reload Profiling: 1131ms
+	BeginReloadAssembly (236ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (64ms)
-	RebuildNativeTypeToScriptingClass (24ms)
-	initialDomainReloadingComplete (94ms)
-	LoadAllAssembliesAndSetupDomain (196ms)
-		LoadAssemblies (193ms)
+	RebuildCommonClasses (82ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (126ms)
+	LoadAllAssembliesAndSetupDomain (245ms)
+		LoadAssemblies (233ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (195ms)
-			TypeCache.Refresh (193ms)
-				TypeCache.ScanAssembly (177ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (361ms)
+		AnalyzeDomain (241ms)
+			TypeCache.Refresh (239ms)
+				TypeCache.ScanAssembly (214ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (422ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (263ms)
+		SetupLoadedEditorAssemblies (312ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (18ms)
-			SetLoadedEditorAssemblies (8ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (167ms)
-			ProcessInitializeOnLoadMethodAttributes (68ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (220ms)
+			ProcessInitializeOnLoadMethodAttributes (66ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -116,9 +118,10 @@ Domain Reload Profiling: 935ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.913 seconds
-Refreshing native plugins compatible for Editor in 15.48 ms, found 9 plugins.
+- Loaded All Assemblies, in  1.231 seconds
+Refreshing native plugins compatible for Editor in 10.50 ms, found 9 plugins.
 Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
@@ -138,48 +141,48 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.901 seconds
-Domain Reload Profiling: 1811ms
-	BeginReloadAssembly (195ms)
+- Finished resetting the current domain, in  0.972 seconds
+Domain Reload Profiling: 2187ms
+	BeginReloadAssembly (233ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
-		ReleaseScriptingObjects (1ms)
-		CreateAndSetChildDomain (26ms)
-	RebuildCommonClasses (41ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (46ms)
-	LoadAllAssembliesAndSetupDomain (612ms)
-		LoadAssemblies (427ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (73ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (87ms)
+	LoadAllAssembliesAndSetupDomain (797ms)
+		LoadAssemblies (654ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (294ms)
-			TypeCache.Refresh (241ms)
-				TypeCache.ScanAssembly (217ms)
-			ScanForSourceGeneratedMonoScriptInfo (36ms)
-			ResolveRequiredComponents (15ms)
-	FinalizeReload (902ms)
+		AnalyzeDomain (289ms)
+			TypeCache.Refresh (237ms)
+				TypeCache.ScanAssembly (211ms)
+			ScanForSourceGeneratedMonoScriptInfo (34ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (973ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (672ms)
+		SetupLoadedEditorAssemblies (757ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (12ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (107ms)
-			ProcessInitializeOnLoadAttributes (511ms)
-			ProcessInitializeOnLoadMethodAttributes (28ms)
-			AfterProcessingInitializeOnLoad (8ms)
+			BeforeProcessingInitializeOnLoad (105ms)
+			ProcessInitializeOnLoadAttributes (588ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
+			AfterProcessingInitializeOnLoad (12ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (15ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 13.22 ms, found 9 plugins.
-Preloading 2 native plugins for Editor in 0.15 ms.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 11.09 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.10 ms.
 Unloading 5096 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 75 unused Assets / (451.2 KB). Loaded Objects now: 5535.
-Memory consumption went from 198.4 MB to 197.9 MB.
-Total: 3.611400 ms (FindLiveObjects: 0.367200 ms CreateObjectMapping: 0.336700 ms MarkObjects: 2.701400 ms  DeleteObjects: 0.205400 ms)
+Unloading 75 unused Assets / (451.2 KB). Loaded Objects now: 5529.
+Memory consumption went from 198.0 MB to 197.5 MB.
+Total: 4.177500 ms (FindLiveObjects: 0.432500 ms CreateObjectMapping: 0.418900 ms MarkObjects: 3.070000 ms  DeleteObjects: 0.255000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -196,25 +199,182 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 953028.070792 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Common/Materials/Interior Exterior/door1.mat
-  artifactKey: Guid(b002a5c83a5d5054bab501f4d01dade7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/Apartment Kit/Common/Materials/Interior Exterior/door1.mat using Guid(b002a5c83a5d5054bab501f4d01dade7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '503a0d6d241218b6b2712defa79f8326') in 0.329507 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.012876 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface/Fabric_01_A.png
-  artifactKey: Guid(e9783abdcac23084985c08e4d4dade3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface/Fabric_01_A.png using Guid(e9783abdcac23084985c08e4d4dade3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c2fc85c897fb7a2c9fee6da4fc495d6') in 0.054889 seconds
+  Time since last request: 1002793.870192 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface/CastIron_M.png
+  artifactKey: Guid(60fe05f4313f9a743a60a9520b20834a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface/CastIron_M.png using Guid(60fe05f4313f9a743a60a9520b20834a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1f713e7cad867e26b7420cf86d7c757') in 0.109031 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Common/Materials/Interior Exterior/Int_Apt_01.mat
-  artifactKey: Guid(e5edd18648b6fe340941b7f67c9a2996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/Apartment Kit/Common/Materials/Interior Exterior/Int_Apt_01.mat using Guid(e5edd18648b6fe340941b7f67c9a2996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efaf3fb8bafb01ceced03803a782f916') in 0.076450 seconds
+  Time since last request: 0.000021 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface/Mesh_Black_A.png
+  artifactKey: Guid(ef5f21946157b6049bebeadd326783c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface/Mesh_Black_A.png using Guid(ef5f21946157b6049bebeadd326783c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '690e653319653462832063939af7cede') in 0.038065 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface/Wood_Ebony_01_AO.png
+  artifactKey: Guid(288cf7adf0d7df7428fd6de295b12e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface/Wood_Ebony_01_AO.png using Guid(288cf7adf0d7df7428fd6de295b12e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b97d2609d310fc01ec9c7f6b1ede1bb7') in 0.063246 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface/Fabric_01_H.png
+  artifactKey: Guid(f16f03215be3d524997908d61dbdf67b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface/Fabric_01_H.png using Guid(f16f03215be3d524997908d61dbdf67b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '671ba015e9184078fbe1fefa07039dc2') in 0.040224 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface/Plastic_N.png
+  artifactKey: Guid(4bf427319880ec2419bf2d8809d66594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface/Plastic_N.png using Guid(4bf427319880ec2419bf2d8809d66594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85cdb2a7dad6f099c49bda899b6ceb4f') in 0.115711 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface/Wood_Ebony_01_A.png
+  artifactKey: Guid(852e56973a7526a4b88475a4f8463f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface/Wood_Ebony_01_A.png using Guid(852e56973a7526a4b88475a4f8463f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f97b88f1bd5686ea3b74ccf28239cfc7') in 0.085766 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface/Leather_A.png
+  artifactKey: Guid(e2c05aebeef07c543930c67d2767bfdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface/Leather_A.png using Guid(e2c05aebeef07c543930c67d2767bfdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab4b0376aa3575981008d4cdf712cd90') in 0.088295 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface/Painting_N.png
+  artifactKey: Guid(52a7d8c0d3423c946a76ebe65fb6dab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface/Painting_N.png using Guid(52a7d8c0d3423c946a76ebe65fb6dab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e256d4cdbd5c3cb1a4a8bfac8d05835d') in 0.073111 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface/Plastic_H.png
+  artifactKey: Guid(79ef3e688a809c344a2810096ad448bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface/Plastic_H.png using Guid(79ef3e688a809c344a2810096ad448bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1821d152571412d8138a227cc632109d') in 0.051755 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface/CastIron_N.png
+  artifactKey: Guid(99496fcaeb5bec24ba1bba0387998f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface/CastIron_N.png using Guid(99496fcaeb5bec24ba1bba0387998f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12d9e7864539f4b4980fb7a0d8126b5c') in 0.050172 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.954499 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Common/Textures/Interior Exterior/Int_Apt_01_H.png
+  artifactKey: Guid(d891eeff6af0d2f41acb05df08dcaaa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Common/Textures/Interior Exterior/Int_Apt_01_H.png using Guid(d891eeff6af0d2f41acb05df08dcaaa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a5803553bbc3529183fcce4031908b0') in 0.074153 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Common/Textures/Interior Exterior/Int_Apt_01_N.png
+  artifactKey: Guid(52cab35fc66c35d47b73fd24748c768b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Common/Textures/Interior Exterior/Int_Apt_01_N.png using Guid(52cab35fc66c35d47b73fd24748c768b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e184d89974e3d7f2284ed94fffe9393') in 0.065297 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Common/Textures/Interior Exterior/Int_Apt_02_A.png
+  artifactKey: Guid(2250416960944be479b4dade787e02d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Common/Textures/Interior Exterior/Int_Apt_02_A.png using Guid(2250416960944be479b4dade787e02d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36a5fc18162aeca91163d402af1740d8') in 0.048533 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 668.389057 seconds.
+  path: Assets/Oculus/SampleFramework/Core/CustomHands/CustomHandLeft.prefab
+  artifactKey: Guid(e6ba3498ffa1e534b91a07264266e6b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Core/CustomHands/CustomHandLeft.prefab using Guid(e6ba3498ffa1e534b91a07264266e6b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37800e1fee0edd8b34a271578d9a20f1') in 0.141704 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 186
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Common/Models/Apt_Furniture_01.fbx
+  artifactKey: Guid(7a1dd57bd8b6ca44cbf5f922801b2975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Common/Models/Apt_Furniture_01.fbx using Guid(7a1dd57bd8b6ca44cbf5f922801b2975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '564d47cf7479cf43bef9b0acaee41acd') in 0.699009 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 379
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Oculus/Interaction/Samples/Objects/Environment/Locomotion/Models/Meta_LocomotionInteriorDoors.fbx
+  artifactKey: Guid(3a3482bc28b685d4e9599a050db6d5f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/Samples/Objects/Environment/Locomotion/Models/Meta_LocomotionInteriorDoors.fbx using Guid(3a3482bc28b685d4e9599a050db6d5f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb5437e53fbdcdba7e209c975079b8a9') in 0.073335 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_BPS Basic Assets/_Prefabs/Common/Models/BPS_RR.fbx
+  artifactKey: Guid(37d1da0067b60bd4282c0eaee639654e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_BPS Basic Assets/_Prefabs/Common/Models/BPS_RR.fbx using Guid(37d1da0067b60bd4282c0eaee639654e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7ee3b19c4a6556259c8cb0362696a0f') in 0.619755 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 244
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Common/Models/Corner Wall Cabinet.fbx
+  artifactKey: Guid(5a3b2c9f5dcc95944b5769d838a747e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Common/Models/Corner Wall Cabinet.fbx using Guid(5a3b2c9f5dcc95944b5769d838a747e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef33fd0866cb8938c0db5e71d4240c29') in 0.262274 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 68
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Oculus/Interaction/Runtime/Meshes/HandLeft.asset
+  artifactKey: Guid(d62eb29994855484da750dff41b8b018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/Runtime/Meshes/HandLeft.asset using Guid(d62eb29994855484da750dff41b8b018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fac0c93fe91cffe00f7451c743b6f43') in 0.035282 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Common/Models/Apt_Kit_02.fbx
+  artifactKey: Guid(c31198774d98d9f43be2ca79cb0a84dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Common/Models/Apt_Kit_02.fbx using Guid(c31198774d98d9f43be2ca79cb0a84dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e75b0955158b6451d1265bc19b88adf') in 0.481553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 179
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Oculus/SampleFramework/Core/DistanceGrab/Prefabs/DistanceGrabHandLeft.prefab
+  artifactKey: Guid(0242aa8515b4bc947a945a5c6df83ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Core/DistanceGrab/Prefabs/DistanceGrabHandLeft.prefab using Guid(0242aa8515b4bc947a945a5c6df83ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e49b451289bb0dfeceb4252d45ae5bd7') in 0.057482 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 188
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Oculus/VR/Textures/handle.png
+  artifactKey: Guid(ce8f78b2b9292484e97f36ad9568fc4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/VR/Textures/handle.png using Guid(ce8f78b2b9292484e97f36ad9568fc4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2fe1db59c4d71f794f27d79863ad214') in 0.063099 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 스레드 종료 또는 응용 프로그램 요청 때문에 I/O 작업이 취소되었습니다.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
