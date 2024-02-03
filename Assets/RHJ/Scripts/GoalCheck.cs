@@ -11,7 +11,6 @@ public class GoalCheck : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            Debug.Log("°æº¸");
             TargetEvent.SetActive(true);
         }
 
