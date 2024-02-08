@@ -5,13 +5,16 @@ using UnityEngine;
 public class GoalCheck : MonoBehaviour
 {
 
-    [SerializeField] GameObject TargetEvent;
+    [SerializeField] List<GameObject> TargetEvent;
 
     private void OnTriggerEnter(Collider collision)
     {
         if (collision.gameObject.tag == "Player")
         {
-            TargetEvent.SetActive(true);
+            for (int i = 0; i < TargetEvent.Count; i++)
+            {
+                TargetEvent[i].SetActive(true);
+            }
         }
 
     }
