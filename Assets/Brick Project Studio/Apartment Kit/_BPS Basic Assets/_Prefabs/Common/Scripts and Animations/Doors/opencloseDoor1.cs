@@ -23,20 +23,27 @@ namespace SojaExiles
 				if (Player)
 				{
 					float dist = Vector3.Distance(Player.position, transform.position);
-					if (dist < 15)
+					if (dist < 5)
 					{
+						//Debug.Log(dist);
 						if (open == false)
 						{
-							if (Input.GetMouseButtonDown(0))
+							/*if (Input.GetMouseButtonDown(0))
 							{
 								StartCoroutine(opening());
 							}
+							*/
+							if (Input.GetKeyDown(KeyCode.F))
+                            {
+								StartCoroutine(opening());
+                            }
+
 						}
 						else
 						{
 							if (open == true)
 							{
-								if (Input.GetMouseButtonDown(0))
+								if (Input.GetKeyDown(KeyCode.F))
 								{
 									StartCoroutine(closing());
 								}
