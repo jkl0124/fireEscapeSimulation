@@ -37,6 +37,10 @@ public class GrabObject : MonoBehaviour
 
         if (grabbing)
         {
+            if (Input.GetMouseButtonDown(0))
+            {
+                Debug.Log("»ç¿ë");
+            }
             if (Input.GetMouseButtonDown(1))
             {
                 grabbing = false;
@@ -67,10 +71,12 @@ public class GrabObject : MonoBehaviour
                 {
                     if (Input.GetMouseButtonDown(0))
                     {
+                        Debug.Log(transform.localScale);
                         //Debug.Log("Pushed");
                         transform.parent = ObjectOnHand_base;
                         gameObject.GetComponent<Rigidbody>().isKinematic = true;
                         transform.localPosition = Vector3.zero;
+
                         transform.localRotation = ObjectOnHand_base.localRotation;
                         grabbing = true;
                     }

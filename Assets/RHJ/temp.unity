@@ -9508,7 +9508,7 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -63981,7 +63981,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0.015624803, y: 0.09990119, z: -0.153732, w: 0.9829253}
   m_LocalPosition: {x: 0.8500023, y: -0.46900004, z: 1.3339996}
-  m_LocalScale: {x: 0.30357003, y: 0.52444, z: 0.34125012}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 310018324}
