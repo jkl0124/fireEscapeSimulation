@@ -10,6 +10,7 @@ public class GrabObject : MonoBehaviour
 
     private Material originalMaterial;
 
+
     void Start()
     {
         grabbing = false;
@@ -18,6 +19,29 @@ public class GrabObject : MonoBehaviour
 
     void Update()
     {
+
+        if (grabbing)
+        {
+            if (Input.GetMouseButtonDown(0))
+            {
+                //Debug.Log("사용");
+                ItemUse itemUse = GetComponent<ItemUse>();
+                if (itemUse != null)
+                {
+                    itemUse.Use(itemUse.type);
+                }
+
+            }
+
+            if (Input.GetMouseButtonDown(1))
+            {
+                grabbing = false;
+                transform.parent = null;
+                gameObject.GetComponent<Rigidbody>().isKinematic = false;
+                GetComponent<Renderer>().material = originalMaterial;
+            }
+        }
+
         RaycastHit hit;
         if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hit))
         {
@@ -35,20 +59,6 @@ public class GrabObject : MonoBehaviour
             OnRaycastExit();
         }
 
-        if (grabbing)
-        {
-            if (Input.GetMouseButtonDown(0))
-            {
-                Debug.Log("사용");
-            }
-            if (Input.GetMouseButtonDown(1))
-            {
-                grabbing = false;
-                transform.parent = null;
-                gameObject.GetComponent<Rigidbody>().isKinematic = false;
-                GetComponent<Renderer>().material = originalMaterial;
-            }
-        }
 
     }
 
@@ -63,24 +73,22 @@ public class GrabObject : MonoBehaviour
         if (Player)
         {
             float dist = Vector3.Distance(Player.position, transform.position);
-            Debug.Log(dist);
-            if (dist < 4)
+            //Debug.Log(dist);
+            if (dist < 4 && !grabbing)
             {
-                //Debug.Log("Dist < 4");
-                if (grabbing == false)
+                if (Input.GetMouseButtonDown(0))
                 {
-                    if (Input.GetMouseButtonDown(0))
-                    {
-                        Debug.Log(transform.localScale);
-                        //Debug.Log("Pushed");
-                        transform.parent = ObjectOnHand_base;
-                        gameObject.GetComponent<Rigidbody>().isKinematic = true;
-                        transform.localPosition = Vector3.zero;
+                    //Debug.Log(transform.localScale);
+                    //Debug.Log("Pushed");
+                    transform.parent = ObjectOnHand_base;
+                    gameObject.GetComponent<Rigidbody>().isKinematic = true;
+                    transform.localPosition = Vector3.zero;
 
-                        transform.localRotation = ObjectOnHand_base.localRotation;
-                        grabbing = true;
-                    }
+                    //transform.localRotation = ObjectOnHand_base.localRotation;
+                    transform.rotation = ObjectOnHand_base.rotation;
+                    grabbing = true;
                 }
+                
             }
         }
     }
