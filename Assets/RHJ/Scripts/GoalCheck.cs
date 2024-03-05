@@ -6,6 +6,7 @@ public class GoalCheck : MonoBehaviour
 {
 
     [SerializeField] List<GameObject> TargetEvent;
+    [SerializeField] GameObject NextEvent;
 
     private void OnTriggerEnter(Collider collision)
     {
@@ -17,5 +18,13 @@ public class GoalCheck : MonoBehaviour
             }
         }
 
+
+        if (NextEvent != null)
+        {
+            GameManager.Instance.nextState++;
+        }
     }
+
+
+
 }

@@ -91,6 +91,7 @@
     <Compile Include="Assets\PostProcessingVolume\PostProcessing Volume\Scripts\PostProcessVolumeReceiver.cs" />
     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\Models\DitheringModel.cs" />
     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Utilities\CustomMotionTexture\ExampleWheelController.cs" />
+    <Compile Include="Assets\RHJ\Scripts\GameManager.cs" />
     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\Attributes\MinAttribute.cs" />
     <Compile Include="Assets\Brick Project Studio\Apartment Kit\_BPS Basic Assets\_Prefabs\Common\Scripts and Animations\Drawer\Z Axis\Drawer_Pull_Z.cs" />
     <Compile Include="Assets\Brick Project Studio\Apartment Kit\Common\Scripts &amp; Animation\Slide\opencloseSlide.cs" />
@@ -129,6 +130,7 @@
     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\PostProcessingContext.cs" />
     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\Components\BuiltinDebugViewsComponent.cs" />
     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\PostProcessingProfile.cs" />
+    <Compile Include="Assets\RHJ\Scripts\ItemUse.cs" />
     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\Utils\ColorGradingCurve.cs" />
     <Compile Include="Assets\Brick Project Studio\Apartment Kit\Common\Scripts &amp; Animation\OvenOpen\OvenFlip.cs" />
     <Compile Include="Assets\RHJ\Scripts\GrabObject.cs" />
