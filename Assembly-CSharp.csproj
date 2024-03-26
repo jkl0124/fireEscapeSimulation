@@ -71,6 +71,7 @@
     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\Models\VignetteModel.cs" />
     <Compile Include="Assets\Brick Project Studio\Apartment Kit\_BPS Basic Assets\_Prefabs\Common\Scripts and Animations\First Person Player\SceneSwitchGen.cs" />
     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\Components\MotionBlurComponent.cs" />
+    <Compile Include="Assets\RHJ\Scripts\NPCquestManager.cs" />
     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\Components\DitheringComponent.cs" />
     <Compile Include="Assets\PostProcessingVolume\PostProcessing Volume\Scripts\PostProcessVolume.cs" />
     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\Utils\GraphicsUtils.cs" />

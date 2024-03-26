@@ -8,9 +8,9 @@ public class ItemUse : MonoBehaviour
     public enum ItemType
     {
         Bucket,
-        Fire
+        FireExtinguisher
     }
-    //컴포넌트창에서 변경
+    // 컴포넌트창에서 변경
     public ItemType type = ItemType.Bucket; 
 
     //특정 장소에 사용해야하는 아이템일경우
@@ -32,7 +32,7 @@ public class ItemUse : MonoBehaviour
                 BucketUse();
                 //Debug.Log("Bucket 아이템을 사용했습니다.");
                 break;
-            case ItemType.Fire:
+            case ItemType.FireExtinguisher:
                 // Fire 아이템 사용에 대한 동작 추가
                 Debug.Log("Fire 아이템을 사용했습니다.");
                 break;
@@ -61,17 +61,17 @@ public class ItemUse : MonoBehaviour
                     target_Use_effect[i].SetActive(true);
                 }
                 StartCoroutine(RedFadeInOutforBadEnding());
-                Debug.Log("쥬금");
+                //Debug.Log("쥬금");
             }
             else if (hit.transform == trigger)
             {
                 water.gameObject.SetActive(true);
-                Debug.Log("물 채워짐");
+                //Debug.Log("물 채워짐");
             }
             else
             {
                 water.gameObject.SetActive(false);
-                Debug.Log("물 사용");
+                //Debug.Log("물 사용");
             }
         }       
         
@@ -96,7 +96,11 @@ public class ItemUse : MonoBehaviour
             yield return null;
         }
 
-        Time.timeScale = 1f; // 3초가 지난 후에 원래대로 시간을 다시 흐르게 설정 나중에 여기서 엔딩씬으로 보내기
+        // BadEnding 1 : Electirc shock ending
+
+        ScoreManager.Instance.PlayerViewedEnding(1);
+
+        //Time.timeScale = 1f; // 3초가 지난 후에 원래대로 시간을 다시 흐르게 설정 나중에 여기서 엔딩씬으로 보내기
         
         Debug.Log("배드엔딩");
     }

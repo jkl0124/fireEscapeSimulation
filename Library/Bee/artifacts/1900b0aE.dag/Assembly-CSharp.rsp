@@ -452,6 +452,7 @@
 "Assets/RHJ/Scripts/GrabObject.cs"
 "Assets/RHJ/Scripts/ItemUse.cs"
 "Assets/RHJ/Scripts/LookCameraCanvas.cs"
+"Assets/RHJ/Scripts/NPCquestManager.cs"
 "Assets/RHJ/Scripts/ScoreManager.cs"
 "Assets/RHJ/Scripts/TextFadeInOut.cs"
 "Assets/RHJ/Scripts/UIFadeInOutAuto.cs"

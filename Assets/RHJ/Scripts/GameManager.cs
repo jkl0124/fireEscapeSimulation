@@ -10,7 +10,8 @@ public class GameManager : MonoBehaviour
     {
         NONE,
         GO7F,
-        CHECKFIRE
+        CHECKFIRE,
+        CHECKNPC
     }
     public GameState nowState = GameState.NONE;
     public GameState nextState = GameState.NONE;
@@ -30,10 +31,20 @@ public class GameManager : MonoBehaviour
                 case GameState.CHECKFIRE:
                     goals[1].SetActive(true);
                     break;
+
+                case GameState.CHECKNPC:
+                    // npc의 존재를 알아채는 collider. 7F에 존재
+                    goals[2].SetActive(true);
+                    // npc quest 싱글톤 생성
+                    NPCquestManager.Instance.nextProcess = 0;
+                    break;
+
             }
         }
     }
 
+
+    // Non-Lazy Non-DDOL Singleton
 
     private static GameManager _Instance;
     public static GameManager Instance
