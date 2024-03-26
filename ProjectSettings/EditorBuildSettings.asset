@@ -4,7 +4,13 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/RHJ/temp.unity
+    guid: e1589dc652e0d574189b7d0cbdbf702f
+  - enabled: 1
+    path: Assets/RHJ/BadEnd(1)-ElectricShock.unity
+    guid: aaa3c4d9e01aed246806a524d50b92f2
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: c425df59556e3834eabf702af922550e, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 4ee9756dec5b78943be61af2ad180b24, type: 2}

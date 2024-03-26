@@ -39,6 +39,14 @@ public class GrabObject : MonoBehaviour
                 transform.parent = null;
                 gameObject.GetComponent<Rigidbody>().isKinematic = false;
                 GetComponent<Renderer>().material = originalMaterial;
+
+                // check item need Change Form when it grabbed (ex. towel)
+                if (ObjectOnHand_base.tag == "ChangeForm")
+                {
+                    gameObject.GetComponent<MeshRenderer>().enabled = true;
+                    ObjectOnHand_base.gameObject.SetActive(false);
+                }
+
             }
         }
 
@@ -78,15 +86,27 @@ public class GrabObject : MonoBehaviour
             {
                 if (Input.GetMouseButtonDown(0))
                 {
+                   
+
                     //Debug.Log(transform.localScale);
                     //Debug.Log("Pushed");
                     transform.parent = ObjectOnHand_base;
                     gameObject.GetComponent<Rigidbody>().isKinematic = true;
                     transform.localPosition = Vector3.zero;
-
-                    //transform.localRotation = ObjectOnHand_base.localRotation;
-                    transform.rotation = ObjectOnHand_base.rotation;
                     grabbing = true;
+
+
+
+                    // check item need Change Form when it grabbed (ex. towel)
+
+                    if (ObjectOnHand_base.tag == "ChangeForm")
+                    {
+                        gameObject.GetComponent<MeshRenderer>().enabled = false;
+                        ObjectOnHand_base.gameObject.SetActive(true);
+                        return;
+                    }
+
+                    transform.rotation = ObjectOnHand_base.rotation;
                 }
                 
             }
