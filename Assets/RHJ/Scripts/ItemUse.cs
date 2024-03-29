@@ -18,7 +18,7 @@ public class ItemUse : MonoBehaviour
     [SerializeField] Transform target;
     [SerializeField] Transform trigger;
 
-    [SerializeField] GameObject Use_effect;
+    //[SerializeField] GameObject Use_effect;
     [SerializeField] List<GameObject> target_Use_effect;
     [SerializeField] GameObject target_Use_image;
 
@@ -33,7 +33,8 @@ public class ItemUse : MonoBehaviour
                 //Debug.Log("Bucket 아이템을 사용했습니다.");
                 break;
             case ItemType.FireExtinguisher:
-                // Fire 아이템 사용에 대한 동작 추가
+                FEUse();
+        
                 Debug.Log("Fire 아이템을 사용했습니다.");
                 break;
             default:
@@ -51,7 +52,7 @@ public class ItemUse : MonoBehaviour
         {
             //target : 누전으로 인한 발화지점 (물 버리면 안되는곳)
             //trigger : 물을 받을 수 있는곳
-            if (hit.transform == target)
+            if (hit.transform == target && water.gameObject.activeSelf)
             {
                 water.gameObject.SetActive(false);
                 
@@ -75,6 +76,24 @@ public class ItemUse : MonoBehaviour
             }
         }       
         
+    }
+
+    void FEUse()
+    {
+        RaycastHit hit;
+        if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hit))
+        {
+            //target : fire
+            if (hit.transform == target)
+            {
+                // 소화기 사용할지 여부 묻는 UI
+                target_Use_image.SetActive(true);
+                SojaExiles.MouseLook.Instance.mouseLock = true;
+
+
+            }
+            
+        }
     }
 
     IEnumerator RedFadeInOutforBadEnding()
