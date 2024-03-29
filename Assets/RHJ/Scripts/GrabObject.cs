@@ -8,7 +8,7 @@ public class GrabObject : MonoBehaviour
     public Transform ObjectOnHand_base;
     public Material highlightMaterial;
 
-    private Material originalMaterial;
+    [SerializeField] private Material originalMaterial;
 
 
     void Start()
