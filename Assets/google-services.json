@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "134695173794",
+    "project_id": "fireescape01-529df",
+    "storage_bucket": "fireescape01-529df.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:134695173794:android:24b6a29ab8b05e8414a1fb",
+        "android_client_info": {
+          "package_name": "com.DefaultCompany.Myprojectfinal9"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFdY5gvnzYFz5xABYgbJgHVRFExyWjZ_s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
