@@ -59,6 +59,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Brick Project Studio\Apartment Kit\_BPS Basic Assets\_Prefabs\Common\Scripts and Animations\First Person Player\MouseLook.cs" />
+    <Compile Include="Assets\RHJ\Scripts\FEClickParticleSystem.cs" />
+    <Compile Include="Assets\RHJ\Scripts\FEUsedWell.cs" />
     <Compile Include="Assets\Brick Project Studio\Apartment Kit\Scenes\Quitgame.cs" />
     <Compile Include="Assets\Brick Project Studio\Apartment Kit\_BPS Basic Assets\_Prefabs\Common\Scripts and Animations\Doors\opencloseDoor1.cs" />
     <Compile Include="Assets\Brick Project Studio\Apartment Kit\_BPS Basic Assets\_Prefabs\Common\Scripts and Animations\First Person Player\PlayerMovement.cs" />
@@ -115,6 +117,7 @@
     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\Models\BuiltinDebugViewsModel.cs" />
     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\Attributes\TrackballGroupAttribute.cs" />
     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
+    <Compile Include="Assets\RHJ\Scripts\CountDownTimer.cs" />
     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\Models\UserLutModel.cs" />
     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\Models\EyeAdaptationModel.cs" />
     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\PostProcessingBehaviour.cs" />
@@ -140,6 +143,7 @@
     <Compile Include="Assets\RHJ\Scripts\FEMinigameButton.cs" />
     <Compile Include="Assets\RHJ\Scripts\BadBehaviourChecker.cs" />
     <Compile Include="Assets\Brick Project Studio\Apartment Kit\_BPS Basic Assets\_Prefabs\Common\Scripts and Animations\Windows\opencloseWindow1.cs" />
+    <Compile Include="Assets\RHJ\Scripts\FogController.cs" />
     <Compile Include="Assets\RHJ\Scripts\TextFadeInOut.cs" />
   </ItemGroup>
   <ItemGroup>

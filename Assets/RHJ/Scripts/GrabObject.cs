@@ -33,7 +33,8 @@ public class GrabObject : MonoBehaviour
 
             }
 
-            if (Input.GetMouseButtonDown(1))
+            //if (Input.GetMouseButtonDown(1))
+            if (Input.GetKeyDown(KeyCode.E))
             {
                 grabbing = false;
                 transform.parent = null;
@@ -51,7 +52,8 @@ public class GrabObject : MonoBehaviour
         }
 
         RaycastHit hit;
-        if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hit))
+        if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hit) || Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out hit) )
+        //if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hit))
         {
             if (hit.transform == transform)
             {
@@ -84,7 +86,9 @@ public class GrabObject : MonoBehaviour
             //Debug.Log(dist);
             if (dist < 4 && !grabbing)
             {
-                if (Input.GetMouseButtonDown(0))
+
+                //if (Input.GetMouseButtonDown(0))
+                if (Input.GetKeyDown(KeyCode.E))
                 {
                    
 
