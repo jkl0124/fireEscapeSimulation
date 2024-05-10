@@ -75,6 +75,7 @@
     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\Components\MotionBlurComponent.cs" />
     <Compile Include="Assets\RHJ\Scripts\NPCquestManager.cs" />
     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\Components\DitheringComponent.cs" />
+    <Compile Include="Assets\RHJ\Scripts\FireParticleControl.cs" />
     <Compile Include="Assets\PostProcessingVolume\PostProcessing Volume\Scripts\PostProcessVolume.cs" />
     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\Utils\GraphicsUtils.cs" />
     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\Utils\MaterialFactory.cs" />
@@ -83,9 +84,11 @@
     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Utilities\PostProcessingController.cs" />
     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\Components\BloomComponent.cs" />
     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\PostProcessingComponent.cs" />
+    <Compile Include="Assets\RHJ\Scripts\ItemManager.cs" />
     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\Models\ScreenSpaceReflectionModel.cs" />
     <Compile Include="Assets\RHJ\Scripts\CloserComeoutUI.cs" />
     <Compile Include="Assets\Brick Project Studio\Apartment Kit\_BPS Basic Assets\_Prefabs\Common\Scripts and Animations\Drawer\X Axis\Drawer_Pull_X.cs" />
+    <Compile Include="Assets\RHJ\Scripts\MakeChildObjectActive.cs" />
     <Compile Include="Assets\RHJ\Scripts\GoalCheck.cs" />
     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\PostProcessingModel.cs" />
     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\Components\TaaComponent.cs" />
@@ -123,6 +126,7 @@
     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\Models\EyeAdaptationModel.cs" />
     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\PostProcessingBehaviour.cs" />
     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\Models\FogModel.cs" />
+    <Compile Include="Assets\RHJ\Scripts\UIManager.cs" />
     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\Models\AmbientOcclusionModel.cs" />
     <Compile Include="Assets\Brick Project Studio\Apartment Kit\Common\Scripts &amp; Animation\TableFlip\TableFlipR.cs" />
     <Compile Include="Assets\Brick Project Studio\Apartment Kit\Common\Scripts &amp; Animation\Windows\opencloseWindowApt.cs" />

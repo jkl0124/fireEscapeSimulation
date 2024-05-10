@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - ChangeForm
+  - Fire
+  - ElecFire
+  - BigFire
   layers:
   - Default
   - TransparentFX

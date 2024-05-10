@@ -4,19 +4,16 @@ using UnityEngine;
 
 public class FEUsedWell : MonoBehaviour
 {
-    [SerializeField] GameObject FeObject;
-    [SerializeField] GameObject FeParticle;
+    private GameObject FeObject;
     [SerializeField] Quaternion FeRotation_Whenusing;
-    void Start()
+
+    private void OnEnable()
     {
+        FeObject = ItemManager.Instance.grabbing_item;
         FeObject.SetActive(true);
-        FeParticle.SetActive(true);
+        ItemUse itemUse = FeObject.GetComponent<ItemUse>();
+        itemUse.FE_opened = true;
         FeObject.transform.localRotation = FeRotation_Whenusing;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

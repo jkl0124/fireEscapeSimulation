@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngineInternal;
 
 public class ItemUse : MonoBehaviour
 {
@@ -24,6 +25,10 @@ public class ItemUse : MonoBehaviour
 
     private Color image_color;
 
+    public bool item_used = false; // 한번 사용한것 못사용하게 하는 용도
+    public bool FE_opened = false; // 소화기 안전핀 해제되었는지 체크 
+    [SerializeField] FEClickParticleSystem fEClickParticleSystem;
+
     public void Use(ItemType type)
     {
         switch (type)
@@ -33,8 +38,13 @@ public class ItemUse : MonoBehaviour
                 //Debug.Log("Bucket 아이템을 사용했습니다.");
                 break;
             case ItemType.FireExtinguisher:
-                FEUse();
-                //Debug.Log("Fire 아이템을 사용했습니다.");
+                if (!item_used)
+                {
+                    FEUse();
+                    //Debug.Log("Fire 아이템을 사용했습니다.");
+                }
+                else
+                    fEClickParticleSystem.UsingFE();
                 break;
             default:
                 // 알 수 없는 아이템 유형에 대한 처리
@@ -51,7 +61,7 @@ public class ItemUse : MonoBehaviour
         {
             //target : 누전으로 인한 발화지점 (물 버리면 안되는곳)
             //trigger : 물을 받을 수 있는곳
-            if (hit.transform == target && water.gameObject.activeSelf)
+            if (hit.transform.tag == "ElecFire" && water.gameObject.activeSelf)
             {
                 water.gameObject.SetActive(false);
                 
@@ -68,6 +78,18 @@ public class ItemUse : MonoBehaviour
                 water.gameObject.SetActive(true);
                 //Debug.Log("물 채워짐");
             }
+            else if (hit.transform.tag == "Fire")
+            {
+                UIManager.Instance.UI[0].SetActive(true);
+                hit.transform.parent.gameObject.SetActive(false);
+                water.gameObject.SetActive(false);
+            }
+            else if (hit.transform.tag == "BigFire")
+            {
+                UIManager.Instance.UI[1].SetActive(true);
+                water.gameObject.SetActive(false);
+            }
+
             else
             {
                 water.gameObject.SetActive(false);
@@ -83,12 +105,11 @@ public class ItemUse : MonoBehaviour
         if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hit))
         {
             //target : fire
-            if (hit.transform == target)
+            if (hit.transform.tag == "ElecFire" || hit.transform.tag == "Fire" || hit.transform.tag == "BigFire")
             {
                 // 소화기 사용할지 여부 묻는 UI
                 target_Use_image.SetActive(true);
                 SojaExiles.MouseLook.Instance.mouseLock = true;
-
 
             }
             

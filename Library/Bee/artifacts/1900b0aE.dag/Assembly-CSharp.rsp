@@ -459,17 +459,21 @@
 "Assets/RHJ/Scripts/FEMinigameButton.cs"
 "Assets/RHJ/Scripts/FEUIButton.cs"
 "Assets/RHJ/Scripts/FEUsedWell.cs"
+"Assets/RHJ/Scripts/FireParticleControl.cs"
 "Assets/RHJ/Scripts/FirePropagation.cs"
 "Assets/RHJ/Scripts/FogController.cs"
 "Assets/RHJ/Scripts/GameManager.cs"
 "Assets/RHJ/Scripts/GoalCheck.cs"
 "Assets/RHJ/Scripts/GrabObject.cs"
+"Assets/RHJ/Scripts/ItemManager.cs"
 "Assets/RHJ/Scripts/ItemUse.cs"
 "Assets/RHJ/Scripts/LookCameraCanvas.cs"
+"Assets/RHJ/Scripts/MakeChildObjectActive.cs"
 "Assets/RHJ/Scripts/NPCquestManager.cs"
 "Assets/RHJ/Scripts/ScoreManager.cs"
 "Assets/RHJ/Scripts/TextFadeInOut.cs"
 "Assets/RHJ/Scripts/UIFadeInOutAuto.cs"
+"Assets/RHJ/Scripts/UIManager.cs"
 -langversion:9.0
 
 /deterministic

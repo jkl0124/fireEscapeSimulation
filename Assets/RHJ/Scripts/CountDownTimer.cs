@@ -13,10 +13,13 @@ public class CountDownTimer : MonoBehaviour
     public List<GameObject> timerimg;
 
 
-    void Start()
+    private void OnEnable()
     {
         // 초기 시간 설정
         currentTime = countdownTime;
+        prevtime = 10;
+        num = 10;
+        timerText.text = "10초";
         UpdateTimerText();
     }
 

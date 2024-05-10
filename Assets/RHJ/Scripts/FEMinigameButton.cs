@@ -19,6 +19,10 @@ public class FEMinigameButton : MonoBehaviour
         {
             nextButton.SetActive(true);
         }
+        else if (nextButton == null)
+        {
+            transform.parent.parent.gameObject.SetActive(false);
+        }
     }
 
     public void MouseLockdisable()

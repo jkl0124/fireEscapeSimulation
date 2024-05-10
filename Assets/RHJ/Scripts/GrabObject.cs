@@ -36,6 +36,7 @@ public class GrabObject : MonoBehaviour
             //if (Input.GetMouseButtonDown(1))
             if (Input.GetKeyDown(KeyCode.E))
             {
+                ItemManager.Instance.grabbing_item = null;
                 grabbing = false;
                 transform.parent = null;
                 gameObject.GetComponent<Rigidbody>().isKinematic = false;
@@ -90,8 +91,8 @@ public class GrabObject : MonoBehaviour
                 //if (Input.GetMouseButtonDown(0))
                 if (Input.GetKeyDown(KeyCode.E))
                 {
-                   
 
+                    ItemManager.Instance.grabbing_item = gameObject;
                     //Debug.Log(transform.localScale);
                     //Debug.Log("Pushed");
                     transform.parent = ObjectOnHand_base;

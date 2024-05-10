@@ -23,6 +23,7 @@ public class GoalCheck : MonoBehaviour
         {
             GameManager.Instance.nextState++;
         }
+        gameObject.GetComponent<BoxCollider>().enabled = false;
     }
 
 
