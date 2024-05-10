@@ -78,6 +78,7 @@
     <Compile Include="Assets\PostProcessingVolume\PostProcessing Volume\Scripts\PostProcessVolume.cs" />
     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\Utils\GraphicsUtils.cs" />
     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\Utils\MaterialFactory.cs" />
+    <Compile Include="Assets\RHJ\Scripts\FirePropagation.cs" />
     <Compile Include="Assets\Brick Project Studio\Apartment Kit\Common\Scripts &amp; Animation\TableFlip\TableFlipL.cs" />
     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Utilities\PostProcessingController.cs" />
     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\Components\BloomComponent.cs" />

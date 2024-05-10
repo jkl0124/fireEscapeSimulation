@@ -459,6 +459,7 @@
 "Assets/RHJ/Scripts/FEMinigameButton.cs"
 "Assets/RHJ/Scripts/FEUIButton.cs"
 "Assets/RHJ/Scripts/FEUsedWell.cs"
+"Assets/RHJ/Scripts/FirePropagation.cs"
 "Assets/RHJ/Scripts/FogController.cs"
 "Assets/RHJ/Scripts/GameManager.cs"
 "Assets/RHJ/Scripts/GoalCheck.cs"

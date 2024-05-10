@@ -34,8 +34,7 @@ public class ItemUse : MonoBehaviour
                 break;
             case ItemType.FireExtinguisher:
                 FEUse();
-        
-                Debug.Log("Fire 아이템을 사용했습니다.");
+                //Debug.Log("Fire 아이템을 사용했습니다.");
                 break;
             default:
                 // 알 수 없는 아이템 유형에 대한 처리
