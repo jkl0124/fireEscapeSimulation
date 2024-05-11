@@ -16,8 +16,8 @@ public class FEUIButton : MonoBehaviour
     public void UseButton()
     {
         FE = ItemManager.Instance.grabbing_item;
-        ItemUse itemUse = FE.GetComponent<ItemUse>();
-        itemUse.item_used = true;
+        //ItemUse itemUse = FE.GetComponent<ItemUse>();
+        //itemUse.item_used = true;
         parentUI.SetActive(false);
         FE.SetActive(false);
         Minigame.SetActive(true);

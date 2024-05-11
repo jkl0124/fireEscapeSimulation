@@ -22,6 +22,7 @@ public class FEClickParticleSystem : MonoBehaviour
     [SerializeField] GameObject UseFinishUI;
     public bool cannotuse = false;
 
+
     private void Start()
     {
         currentStartSize = FePs.main.startSize.constant;

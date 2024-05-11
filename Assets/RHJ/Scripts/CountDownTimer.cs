@@ -12,6 +12,8 @@ public class CountDownTimer : MonoBehaviour
     public int num = 10;
     public List<GameObject> timerimg;
 
+    [SerializeField] GameObject failedUI;
+
 
     private void OnEnable()
     {
@@ -42,7 +44,11 @@ public class CountDownTimer : MonoBehaviour
         // 타이머가 0에 도달하면 원하는 작업을 수행하거나 타이머를 멈출 수 있음
         if (currentTime <= 0f)
         {
-            // 여기에 타이머가 0에 도달했을 때 수행할 작업을 추가하세요.
+            gameObject.transform.parent.gameObject.SetActive(false);
+            failedUI.SetActive(true);
+            SojaExiles.MouseLook.Instance.mouseLock = false;
+            ItemManager.Instance.grabbing_item.gameObject.SetActive(true);
+
         }
     }
 

@@ -30,4 +30,11 @@ public class FEMinigameButton : MonoBehaviour
         SojaExiles.MouseLook.Instance.mouseLock = false;
     }
 
+    public void MakeItemUsingState()
+    {
+        GameObject FE = ItemManager.Instance.grabbing_item;
+        ItemUse itemUse = FE.GetComponent<ItemUse>();
+        itemUse.item_used = true;
+    }
+
 }
