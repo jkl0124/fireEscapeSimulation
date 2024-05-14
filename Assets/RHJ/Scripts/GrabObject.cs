@@ -43,10 +43,16 @@ public class GrabObject : MonoBehaviour
                 GetComponent<Renderer>().material = originalMaterial;
 
                 // check item need Change Form when it grabbed (ex. towel)
-                if (ObjectOnHand_base.tag == "ChangeForm")
+                //if (ObjectOnHand_base.tag == "ChangeForm")
+                //{
+                //    gameObject.GetComponent<MeshRenderer>().enabled = true;
+                //    ObjectOnHand_base.gameObject.SetActive(false);
+                //}
+
+                if (gameObject.tag == "towel")
                 {
-                    gameObject.GetComponent<MeshRenderer>().enabled = true;
-                    ObjectOnHand_base.gameObject.SetActive(false);
+                    TowelEquipping towelEquipping = GetComponent<TowelEquipping>();
+                    towelEquipping.grabbingTowel = false;
                 }
 
             }
@@ -104,14 +110,20 @@ public class GrabObject : MonoBehaviour
 
                     // check item need Change Form when it grabbed (ex. towel)
 
-                    if (ObjectOnHand_base.tag == "ChangeForm")
-                    {
-                        gameObject.GetComponent<MeshRenderer>().enabled = false;
-                        ObjectOnHand_base.gameObject.SetActive(true);
-                        return;
-                    }
+                    //if (ObjectOnHand_base.tag == "ChangeForm")
+                    //{
+                    //    gameObject.GetComponent<MeshRenderer>().enabled = false;
+                    //    ObjectOnHand_base.gameObject.SetActive(true);
+                    //    return;
+                    //}
 
                     transform.rotation = ObjectOnHand_base.rotation;
+
+                    if (gameObject.tag == "towel")
+                    {
+                        TowelEquipping towelEquipping = GetComponent<TowelEquipping>();
+                        towelEquipping.grabbingTowel = true;
+                    }
                 }
                 
             }

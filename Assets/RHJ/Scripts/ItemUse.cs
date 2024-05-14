@@ -9,7 +9,8 @@ public class ItemUse : MonoBehaviour
     public enum ItemType
     {
         Bucket,
-        FireExtinguisher
+        FireExtinguisher,
+        Towel
     }
     // 컴포넌트창에서 변경
     public ItemType type = ItemType.Bucket; 
@@ -45,6 +46,12 @@ public class ItemUse : MonoBehaviour
                 }
                 else
                     fEClickParticleSystem.UsingFE();
+                break;
+            case ItemType.Towel:
+                if (!item_used)
+                {
+                    TowelUse();
+                }
                 break;
             default:
                 // 알 수 없는 아이템 유형에 대한 처리
@@ -114,6 +121,12 @@ public class ItemUse : MonoBehaviour
             }
             
         }
+    }
+
+    void TowelUse()
+    {
+        target_Use_effect[0].SetActive(true);
+
     }
 
     IEnumerator RedFadeInOutforBadEnding()
