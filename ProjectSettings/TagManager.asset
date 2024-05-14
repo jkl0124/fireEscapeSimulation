@@ -4,19 +4,18 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - tempObj
-  - SamplesInfoPanel
-  - autodestroy
-  - outodestroy
-  - checkplay
+  - ChangeForm
+  - Fire
+  - ElecFire
+  - BigFire
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - transparent
+  - 
   - Water
   - UI
-  - Hide
+  - 
   - 
   - 
   - 
