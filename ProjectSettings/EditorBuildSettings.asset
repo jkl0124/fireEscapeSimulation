@@ -11,6 +11,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/RHJ/BadEnd(1)-ElectricShock.unity
     guid: aaa3c4d9e01aed246806a524d50b92f2
+  - enabled: 1
+    path: Assets/KHS/Login2.unity
+    guid: 9e44ce6b6bd9745a683604b969827478
+  - enabled: 1
+    path: Assets/KHS/testDB.unity
+    guid: fb22219096a4243c49f10eaa95531a1c
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: c425df59556e3834eabf702af922550e, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 4ee9756dec5b78943be61af2ad180b24, type: 2}
