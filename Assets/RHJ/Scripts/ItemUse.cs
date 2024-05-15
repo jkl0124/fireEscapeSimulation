@@ -50,8 +50,10 @@ public class ItemUse : MonoBehaviour
             case ItemType.Towel:
                 if (!item_used)
                 {
-                    TowelUse();
+                    TowelUseWithoutWater();
                 }
+                else
+                    TowelUseWithWater();
                 break;
             default:
                 // 알 수 없는 아이템 유형에 대한 처리
@@ -123,10 +125,33 @@ public class ItemUse : MonoBehaviour
         }
     }
 
-    void TowelUse()
+    void TowelUseWithoutWater()
     {
         target_Use_effect[0].SetActive(true);
+        RaycastHit hit;
+        if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hit))
+        {
+            //water hit
+            if (hit.transform.tag == "water")
+            {
+                Debug.Log("물");
+                target_Use_effect[1].SetActive(true);
+                gameObject.transform.GetComponent<MeshRenderer>().enabled = false;
+                gameObject.transform.GetChild(0).gameObject.SetActive(true);
+                item_used = true;
 
+            }
+            else 
+            { 
+                target_Use_effect[0].SetActive(true);
+                Debug.Log("사용");
+            }
+        }
+    }
+
+    void TowelUseWithWater()
+    {
+        target_Use_effect[2].SetActive(true);
     }
 
     IEnumerator RedFadeInOutforBadEnding()

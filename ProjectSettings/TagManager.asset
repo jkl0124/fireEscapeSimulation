@@ -9,6 +9,7 @@ TagManager:
   - ElecFire
   - BigFire
   - towel
+  - water
   layers:
   - Default
   - TransparentFX
