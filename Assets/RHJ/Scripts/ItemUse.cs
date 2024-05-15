@@ -127,14 +127,13 @@ public class ItemUse : MonoBehaviour
 
     void TowelUseWithoutWater()
     {
-        target_Use_effect[0].SetActive(true);
         RaycastHit hit;
         if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hit))
         {
             //water hit
             if (hit.transform.tag == "water")
             {
-                Debug.Log("물");
+                //Debug.Log("물");
                 target_Use_effect[1].SetActive(true);
                 gameObject.transform.GetComponent<MeshRenderer>().enabled = false;
                 gameObject.transform.GetChild(0).gameObject.SetActive(true);
@@ -144,14 +143,14 @@ public class ItemUse : MonoBehaviour
             else 
             { 
                 target_Use_effect[0].SetActive(true);
-                Debug.Log("사용");
+                //Debug.Log("사용");
             }
         }
     }
 
     void TowelUseWithWater()
     {
-        target_Use_effect[2].SetActive(true);
+        //target_Use_effect[2].SetActive(true);
     }
 
     IEnumerator RedFadeInOutforBadEnding()
