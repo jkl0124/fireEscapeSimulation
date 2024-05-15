@@ -63,6 +63,7 @@
     <Compile Include="Assets\RHJ\Scripts\FEClickParticleSystem.cs" />
     <Compile Include="Assets\RHJ\Scripts\FEUsedWell.cs" />
     <Compile Include="Assets\Brick Project Studio\Apartment Kit\Scenes\Quitgame.cs" />
+    <Compile Include="Assets\KHS\Title.cs" />
     <Compile Include="Assets\Brick Project Studio\Apartment Kit\_BPS Basic Assets\_Prefabs\Common\Scripts and Animations\Doors\opencloseDoor1.cs" />
     <Compile Include="Assets\Brick Project Studio\Apartment Kit\_BPS Basic Assets\_Prefabs\Common\Scripts and Animations\First Person Player\PlayerMovement.cs" />
     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\Components\GrainComponent.cs" />
@@ -71,13 +72,17 @@
     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\Models\AntialiasingModel.cs" />
     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\Components\EyeAdaptationComponent.cs" />
     <Compile Include="Assets\PostProcessingVolume\PostProcessing Volume\Example\ExampleSceneScripts\FPSViewer.cs" />
+    <Compile Include="Assets\KHS\checkagain.cs" />
     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\Models\VignetteModel.cs" />
     <Compile Include="Assets\Brick Project Studio\Apartment Kit\_BPS Basic Assets\_Prefabs\Common\Scripts and Animations\First Person Player\SceneSwitchGen.cs" />
+    <Compile Include="Assets\KHS\TitleScript.cs" />
     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\Components\MotionBlurComponent.cs" />
     <Compile Include="Assets\RHJ\Scripts\NPCquestManager.cs" />
+    <Compile Include="Assets\KHS\DBRepository.cs" />
     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\Components\DitheringComponent.cs" />
     <Compile Include="Assets\RHJ\Scripts\FireParticleControl.cs" />
     <Compile Include="Assets\PostProcessingVolume\PostProcessing Volume\Scripts\PostProcessVolume.cs" />
+    <Compile Include="Assets\KHS\SIGNUP.cs" />
     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\Utils\GraphicsUtils.cs" />
     <Compile Include="Assets\RHJ\Scripts\StateUIController.cs" />
     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\Utils\MaterialFactory.cs" />
@@ -122,6 +127,7 @@
     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\Components\VignetteComponent.cs" />
     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\Components\UserLutComponent.cs" />
     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\Models\BuiltinDebugViewsModel.cs" />
+    <Compile Include="Assets\KHS\checkSginUp.cs" />
     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\Attributes\TrackballGroupAttribute.cs" />
     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
     <Compile Include="Assets\RHJ\Scripts\CountDownTimer.cs" />
@@ -131,19 +137,24 @@
     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\Models\FogModel.cs" />
     <Compile Include="Assets\RHJ\Scripts\UIManager.cs" />
     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\Models\AmbientOcclusionModel.cs" />
+    <Compile Include="Assets\KHS\testDB.cs" />
     <Compile Include="Assets\Brick Project Studio\Apartment Kit\Common\Scripts &amp; Animation\TableFlip\TableFlipR.cs" />
     <Compile Include="Assets\Brick Project Studio\Apartment Kit\Common\Scripts &amp; Animation\Windows\opencloseWindowApt.cs" />
     <Compile Include="Assets\Brick Project Studio\Apartment Kit\_BPS Basic Assets\_Prefabs\Common\Scripts and Animations\Doors\opencloseDoor.cs" />
     <Compile Include="Assets\Brick Project Studio\Apartment Kit\_BPS Basic Assets\_Prefabs\Common\Scripts and Animations\Doors\opencloseStallDoor.cs" />
     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\Components\ColorGradingComponent.cs" />
+    <Compile Include="Assets\KHS\GameMenu.cs" />
     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\Components\AmbientOcclusionComponent.cs" />
     <Compile Include="Assets\RHJ\Scripts\StateManager.cs" />
     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\Components\ScreenSpaceReflectionComponent.cs" />
     <Compile Include="Assets\Brick Project Studio\Apartment Kit\_BPS Basic Assets\_Prefabs\Common\Scripts and Animations\Windows\opencloseWindow.cs" />
+    <Compile Include="Assets\KHS\Login.cs" />
     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\PostProcessingContext.cs" />
     <Compile Include="Assets\RHJ\Scripts\FEUIButton.cs" />
+    <Compile Include="Assets\KHS\TitleSingleManager.cs" />
     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\Components\BuiltinDebugViewsComponent.cs" />
     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\PostProcessingProfile.cs" />
+    <Compile Include="Assets\KHS\AuthManager.cs" />
     <Compile Include="Assets\RHJ\Scripts\ItemUse.cs" />
     <Compile Include="Assets\RHJ\Scripts\StateAlarm.cs" />
     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\Utils\ColorGradingCurve.cs" />
@@ -166,21 +177,27 @@
     <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\FXAA3.cginc" />
     <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\EyeAdaptation.shader" />
     <None Include="Assets\PostProcessingVolume\PostProcessing\Utilities\CustomMotionTexture\Shaders\CustomMotionVectorTexture.shader" />
+    <None Include="Assets\Firebase\Plugins\x86_64\FirebaseCppDatabase.dll" />
     <None Include="Assets\PostProcessingVolume\PostProcessing\Editor Resources\UI\CurveBackground.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\BuiltinDebugViews.shader" />
     <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\EyeAdaptation.cginc" />
     <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\LutGen.shader" />
     <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\EyeHistogram.compute" />
+    <None Include="Assets\Firebase\Plugins\Firebase.App.dll" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
     <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\TAA.cginc" />
     <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\AmbientOcclusion.cginc" />
+    <None Include="Assets\Firebase\Plugins\x86_64\FirebaseCppAuth.dll" />
     <None Include="Assets\PostProcessingVolume\PostProcessing\Editor Resources\Monitors\VectorscopeCompute.compute" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\Firebase\Plugins\Firebase.TaskExtension.dll" />
     <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\ColorGrading.cginc" />
+    <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-app-unity\maven-metadata.xml" />
     <None Include="Assets\PostProcessingVolume\PostProcessing\Editor Resources\Monitors\HistogramRender.shader" />
     <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\UberSecondPass.cginc" />
+    <None Include="Assets\Firebase\Plugins\Firebase.Auth.dll" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\SimplestMeshBaker\Readme.txt" />
@@ -192,10 +209,13 @@
     <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\MotionBlur.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\AmbientOcclusion.shader" />
+    <None Include="Assets\Firebase\Plugins\Firebase.Database.dll" />
     <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\FXAA.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-auth-unity\maven-metadata.xml" />
     <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\ScreenSpaceRaytrace.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\Firebase\Plugins\iOS\Firebase.Auth.dll" />
     <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\Tonemapping.cginc" />
     <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\Fog.shader" />
     <None Include="Assets\PostProcessingVolume\PostProcessing\Editor Resources\Monitors\ParadeRender.shader" />
@@ -210,17 +230,23 @@
     <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\Bloom.shader" />
     <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\Uber.shader" />
     <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\DepthOfField.shader" />
+    <None Include="Assets\Firebase\Plugins\iOS\Firebase.Database.dll" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\TAA.shader" />
+    <None Include="Assets\Firebase\Plugins\x86_64\FirebaseCppApp-12_0_0.dll" />
     <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\Blit.shader" />
+    <None Include="Assets\Firebase\Plugins\Firebase.Platform.dll" />
     <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\Bloom.cginc" />
     <None Include="Assets\PostProcessingVolume\PostProcessing\Editor Resources\Monitors\WaveformCompute.compute" />
     <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\DepthOfField.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-database-unity\maven-metadata.xml" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\Firebase\Plugins\Google.MiniJson.dll" />
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
     <None Include="Assets\Brick Project Studio\Apartment Kit\Scenes\BPS Apartment Kit.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\Firebase\Plugins\iOS\Firebase.App.dll" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
   </ItemGroup>
   <ItemGroup>
@@ -478,6 +504,24 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.App">
+      <HintPath>Assets\Firebase\Plugins\Firebase.App.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.Database">
+      <HintPath>Assets\Firebase\Plugins\Firebase.Database.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.TaskExtension">
+      <HintPath>Assets\Firebase\Plugins\Firebase.TaskExtension.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.MiniJson">
+      <HintPath>Assets\Firebase\Plugins\Google.MiniJson.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.Auth">
+      <HintPath>Assets\Firebase\Plugins\Firebase.Auth.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.Platform">
+      <HintPath>Assets\Firebase\Plugins\Firebase.Platform.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.8f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
